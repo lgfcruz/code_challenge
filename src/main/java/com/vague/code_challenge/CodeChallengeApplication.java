@@ -48,7 +48,7 @@ public class CodeChallengeApplication {
     public CommandLineRunner commandLineRunner() {
         return args -> {
         		userRepository.save(new User("java beans", "foo"));
-            System.out.println("Vague Code Challenge service started");
+            System.out.println(" :: Vague Code Challenge from Statflo for VanHack Leap Service Started");
         };
     }
 	

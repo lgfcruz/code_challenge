@@ -7,6 +7,7 @@
 	<artifactId>code_challenge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+
     <developers>
     		<developer>
     			<name>Luiz Guilherme Cruz</name>
@@ -21,8 +22,8 @@
     </developers>
 	
 	<name>code_challenge</name>
-	<description>Demo project for Vague Code Challenge</description>
-
+	<description>This project is part of a Coding Challenge from Statflo for VanHack Leap</description>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -77,6 +78,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		
+		<finalName>${project.artifactId}</finalName>
 	</build>
 
 </project>
